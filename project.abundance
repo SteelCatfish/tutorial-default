@@ -4,6 +4,16 @@
   "y": 0,
   "uniqueID": "id-123739",
   "name": "tutorial-default",
+  "ioValues": [
+    {
+      "name": "Input",
+      "ioValue": 10
+    },
+    {
+      "name": "Input_2",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -26,8 +36,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 10
         }
       ]
     },
@@ -46,6 +55,19 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-123749"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-123759",
+      "name": "Input_2"
     }
   ],
   "allConnectors": [
@@ -53,6 +75,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-123742",
       "ap2ID": "id-123745"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-123745",
+      "ap2ID": "id-123740"
     }
   ],
   "unitsKey": "MM",
